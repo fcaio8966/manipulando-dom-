@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template Electron APP</title>
+  <title>Gerenciador de tarefas</title>
 
+  <!-- Arquivo de estilos -->
   <link rel="stylesheet" href="../styles/styles.css">
 </head>
+
 <body>
-  <h1>Template Electron APP</h1>
-  <p>
-    Esse é um template em Electron
-  </p>
-  <button onclick= "mostar_informacao()">
-    clica aqui 
-  </button>
+
+  <div>
+    <h1>Gerenciador de tarefas</h1>
+
+    <input type="text" placeholder="Digite uma tarefa" id="input-tarefa"  >
+
+    <button class= "add" onclick= "addtask()" >
+      Adicionar
+    </button>
+
+    <ul id="lista-tarefa"> 
+     
+
+    </ul>
+
+
+  </div>
 
   <!-- Arquivo para manipular nosso DOM -->
   <script src="../js/script.js"></script>
-  <script>
-
-    function mostar_informacao(){
-      console.log("caio felipe")
-      console.log("25 anos");
-      alert("ola world!")
-    }
-    console.log( 'ola mundo!');
-    
-    var nome = 'caio felipe'
-
-    console.log(nome);
-
-  </script>
 </body>
+
 </html>
