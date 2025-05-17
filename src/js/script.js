@@ -1,3 +1,11 @@
+
+var meuInput = Document.getElementById("input-tarefa")
+
+meuInput.addEventListerner("keypress",function(event){
+      
+
+})
+
 function addtask(){
     var input = document.getElementById("input-tarefa")
     //console.log(input)

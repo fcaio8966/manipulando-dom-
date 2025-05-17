@@ -8,6 +8,7 @@ function createWindow() {
   const window = new BrowserWindow({
     width: 800, // Largura da janela
     height: 600, // Altura da janela
+    icon: "assets/icon.png"
   })
 
   // Carregar o arquivo HTML na janela

@@ -19,6 +19,12 @@ div {
   border-radius: 8px; /* Cantos arredondados */
 }
 
+#logo-app {
+  width: 100px;
+  margin: auto;
+  display: block;
+}
+
 input {
   flex: 1; /* Ocupa espaço disponível */
   padding: 10px; /* Espaçamento interno */
